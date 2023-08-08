@@ -14,7 +14,7 @@ export const validarClave = (
   commonPasswords: string[]
 ): ValidacionClave => {
   if (!nombreUsuario || !clave || !commonPasswords) {
-    throw 'Valores de entrada incorrectos';
+    throw new Error('Valores de entrada incorrectos');
   }
   const tiene = [
     tieneMayusculasYMinusculas(clave),
