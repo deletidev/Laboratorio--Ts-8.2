@@ -1,3 +1,8 @@
+export const mayusculas = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+export const minusculas = mayusculas.toLowerCase();
+export const numeros = '0123456789';
+export const caracteresEspeciales = '!@#$%^&*()_+-=[]{}|;:",.<>?¡¿';
+
 export const commonPasswords: string[] = [
   'password',
   '123456',
